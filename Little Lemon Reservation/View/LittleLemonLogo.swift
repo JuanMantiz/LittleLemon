@@ -2,7 +2,7 @@
 //  LittleLemonLogo.swift
 //  Little Lemon Reservation
 //
-//  Created by Mantiz on 01/02/23.
+//  Created by Mantiz 
 //
 
 import SwiftUI

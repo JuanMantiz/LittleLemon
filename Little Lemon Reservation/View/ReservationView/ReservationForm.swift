@@ -100,9 +100,8 @@ struct ReservationForm: View {
                     }
                     
                     
-                    // add the RESERVE button
+                    
                     Button(action: {
-                        // Checking the form for correctly entered information
                         validateForm()
                     }, label: {
                         Text("CONFIRM RESERVATION")
@@ -138,7 +137,6 @@ struct ReservationForm: View {
     
     private func validateForm() {
         
-        // customerName must contain just letters
         let nameIsValid = isValid(name: customerName)
         let emailIsValid = isValid(email: customerEmail)
         
@@ -150,7 +148,6 @@ struct ReservationForm: View {
             }
             
             var invalidPhoneMessage = ""
-            // Checking for a phone number
             if customerPhoneNumber.isEmpty {
                 invalidPhoneMessage = "The phone number cannot be blank.\n\n"
             }
@@ -165,10 +162,7 @@ struct ReservationForm: View {
             showFormInvalidMessage.toggle()
             return
         }
-        
-        // form is valid, proceed
-        
-        // create new temporary reservation
+
         let temporaryReservation = Reservation(restaurant:restaurant,
                                                customerName: customerName,
                                                customerEmail: customerEmail,
@@ -177,13 +171,9 @@ struct ReservationForm: View {
                                                party:party,
                                                specialRequests:specialRequests)
         
-        // Store the temporary reservation locally
+    
         self.temporaryReservation = temporaryReservation
-        
-        // set the flag to defer changing to the model (see .onChange)
         self.mustChangeReservation.toggle()
-        
-        // dismiss this view
         self.presentationMode.wrappedValue.dismiss()
     }
     

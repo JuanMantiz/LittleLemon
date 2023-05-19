@@ -10,8 +10,7 @@ struct ReservationView: View {
     @EnvironmentObject var model:Model
     
     var body: some View {
-        // you can create variables inside body
-        // to help you reduce code repetition
+
         let restaurant = model.reservation.restaurant
         
         ScrollView {
@@ -22,8 +21,7 @@ struct ReservationView: View {
                 if restaurant.city.isEmpty {
                     
                     VStack {
-                        // if city is empty no reservation has been
-                        // selected yet, so, show the following message
+                       
                         Text("No Reservation Yet")
                             .foregroundColor(.gray)
                     }

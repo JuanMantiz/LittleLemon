@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Little Lemon Reservation
 //
-//  Created by Mantiz on 20/01/23.
+//  Created by Mantiz 
 //
 
 import SwiftUI

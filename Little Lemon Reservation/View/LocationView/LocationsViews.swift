@@ -2,7 +2,7 @@
 //  LocationsViews.swift
 //  Little Lemon Reservation
 //
-//  Created by Mantiz on 27/01/23.
+//  Created by Mantiz 
 
 import SwiftUI
 

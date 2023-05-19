@@ -2,7 +2,7 @@
 //  ReservationStruct.swift
 //  Little Lemon Reservation
 //
-//  Created by Mantiz on 23/01/23.
+//  Created by Mantiz
 //
 
 import Foundation
