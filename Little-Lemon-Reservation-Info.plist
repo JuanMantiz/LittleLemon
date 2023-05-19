@@ -8,7 +8,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>ProjectFonts/MarkaziText.ttf</string>
+		<string>MarkaziText.ttf</string>
 	</array>
 </dict>
 </plist>
