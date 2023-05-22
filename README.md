@@ -19,6 +19,7 @@ This project is an app made principle for making reservations and see the differ
 
 ## Screenshots
 ![My Image](LittleLemonBanner.jpg)
+![LittleLemonVideoDemo_AdobeExpress](https://github.com/JuanMantiz/LittleLemon/assets/113963144/80604c9f-da12-4430-9454-bbd02cddd881)
 
 ## Acknowlegdments
 - The design is inspired in the course "Principles of UX/UI Design" by Meta.
