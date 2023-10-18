@@ -6,7 +6,7 @@
 * [Acknowledgments](#acknowledgments)
 
 ## General info
-This project is an app made principle for making reservations and see the different food types that Little Lemon restaurant can offer as well as the picture, description and the price
+This project is an app made for making reservations and see the different food types that Little Lemon restaurant can offer as well as the picture, description and the price
 
 ## Framworks
 - SwiftUI
